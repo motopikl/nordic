@@ -2,7 +2,7 @@
 
 ## Releases:
 
-- 3.1 <kbd>dev</kbd>
+- 3.1
 
   - [[added](https://github.com/Alededorigo/startpage/commit/23e37f84a1d4cc6f55be543789ffb0801ad145f2)] Chrome theme-color meta tag
   - [added] `package.sh` for extensions

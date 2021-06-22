@@ -21,17 +21,23 @@
 
 # **A startpage for the browser**
 
-## Release 3.0 <img alt="" align="right" src="https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=flat"/>
+## Release v3.1 <img alt="" align="right" src="https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=flat"/>
 
-<a href="https://github.com/Alededorigo/Kanji/releases/tag/3.0">
+<a href="https://github.com/Alededorigo/Kanji/releases/tag/3.1">
   <img style="border-radius: 6px" src="https://res.cloudinary.com/adwebsite/image/upload/v1622912733/screenshot.png" alt="preview" align="right" width="400px"/>
 </a>
 
-[Changelog](https://github.com/Alededorigo/startpage/blob/main/changelog.md) <kbd>version 3.0</kbd>:
+[**Changelog**](https://github.com/Alededorigo/startpage/blob/main/changelog.md) <kbd>v3.1</kbd>:
 
-- [fixed] `ctrl + m` instead of `m` to change mode
-- [fixed] `/` issues in the search bar
-- [fixed] icons
+- [[added](https://github.com/Alededorigo/startpage/commit/23e37f84a1d4cc6f55be543789ffb0801ad145f2)] Chrome theme-color meta tag
+- [added] `package.sh` for extensions
+- [improved] input box style
+- [improved] light instead of dark in CSS
+- [fixed] font issues for greetings
+- [fixed] removed useless metadata
+- [fixed] gap between image and links
+- [fixed] font issues
+- [[fixed](https://github.com/Alededorigo/startpage/commit/e0c797d3199b7ad878bc7585cc06ada79cb1f8de)] write `/` in input box after focused
 
 <br />
 <br />
