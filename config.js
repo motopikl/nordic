@@ -5,21 +5,21 @@ var data = {
     // -------------------------------------------------
     // Greetings config. Change greetings from here
 
-    g1: "おやすみなさい", // From 23:00 to 5:00
-    g2: "おはようございます", // Until 12:00
-    g3: "こんにちは", // Until 17:00
-    g4: "おやすみなさい", // Rest of the time
+    g1: "Спокоййной ночи", // From 23:00 to 5:00
+    g2: "Доброе утро", // Until 12:00
+    g3: "Привет", // Until 17:00
+    g4: "Ты снова тут. Чем займёмся?", // Rest of the time
 
     // Font size of the greeting
     greeting_fontsize: "40px",
     // Foreground color of the greeting
-    greeting_fgcolor: "#79acf3",
+    greeting_fgcolor: "#fff",
 
     // -------------------------------------------------
     // Clock config
 
     // Enable/disable clock
-    clock: true,
+    clock: false,
     // Foreground color of the clock
     clock_fgcolor: "#79acf3",
     // Font size of the clock
@@ -29,18 +29,18 @@ var data = {
     // Change image proprieties from here
 
     // Border radius: set it to 50% to create a circle
-    image_radius: "20px",
+    image_radius: "100%",
     // Border for the image
-    image_border: "0px",
+    image_border: "10px",
     // Color of the border
-    image_bordercolor: "#79acf3",
+    image_bordercolor: "#eceff4",
     // Filters for the image.
-    image_filter: "grayscale(56%) brightness(60%)",
+    image_filter: "grayscale(36%) brightness(100%)",
     // Width/height for the image
     image_width: "300px",
     // Image source: you can use local files, or a link
     // Ex.: image_source: "/img/kanji.jpg"
-    image_source: "https://raw.githubusercontent.com/Alededorigo/Kanji/main/img/kanji.jpg",
+    image_source: "https://i.imgur.com/5nL98RF.jpg",
 
     // -------------------------------------------------
     // Enable/disable site icons
@@ -49,12 +49,12 @@ var data = {
 
     // -------------------------------------------------
     // Page title
-    title: "ここから始める",
+    title: "Byrjaðu hér",
 
     // -------------------------------------------------
     // Change search bar proprietis from here
     // Search bar placeholder
-    search_placeholder: "Search here",
+    search_placeholder: "Искать в Google ...",
     // Search engine
     // Possible choices: (case sensitive)
     // google
