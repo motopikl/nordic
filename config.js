@@ -29,9 +29,9 @@ var data = {
     // Change image proprieties from here
 
     // Border radius: set it to 50% to create a circle
-    image_radius: "100%",
+    image_radius: "2%",
     // Border for the image
-    image_border: "10px",
+    image_border: "0px",
     // Color of the border
     image_bordercolor: "#eceff4",
     // Filters for the image.
@@ -40,7 +40,7 @@ var data = {
     image_width: "300px",
     // Image source: you can use local files, or a link
     // Ex.: image_source: "/img/kanji.jpg"
-    image_source: "https://i.imgur.com/5nL98RF.jpg",
+    image_source: "https://i.imgur.com/C7yCYUq.jpg",
 
     // -------------------------------------------------
     // Enable/disable site icons
@@ -49,7 +49,7 @@ var data = {
 
     // -------------------------------------------------
     // Page title
-    title: "Byrjaðu hér",
+    title: "New Tab",
 
     // -------------------------------------------------
     // Change search bar proprietis from here

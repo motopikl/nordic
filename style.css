@@ -1,24 +1,24 @@
 
 
 @font-face {
-  font-family: "Roboto Regular";
-  src: url("./fonts/RobotoCondensed-Regular.ttf");
+  font-family: "HaxrCorp 4089 Cyrillic AltGr";
+  @import url("./fonts/haxrcorp.ttf");
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto Regular", monospace;
+  font-family: "HaxrCorp 4089 Cyrillic AltGr", monospace;
 }
 
 :root {
-  --dark-bg: #2e3440;
-  --white-bg: #d8dee9;
-  --white-alt: #e5e9f0;
+  --dark-bg: #202020;
+  --white-bg: #8d96ad;
+  --white-alt: #e5e4e5;
 }
 
 ::selection {
-  background: #81a1c1;
+  background: #2570ed;
 }
 
 body {
@@ -48,14 +48,20 @@ p {
 }
 
 #greetings {
-  font-family: "Roboto Regular", monospace;
-  background: linear-gradient(270deg, #bf616a 0%, #d08770 20%, #ebcb8b 40%,#a3be8c 65%, #b48ead 100%);
+  font-family: "HaxrCorp 4089 Cyrillic AltGr", monospace;
+  background: linear-gradient(270deg, #c7fba5 0%, #adf182 25%,#dc7d68 50%, #916cad 75%, #523874 100%);
     background-clip: border-box;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 animation: flow 7s ease-in-out infinite;
 background-size: 200% auto;
 pointer-events: none;
+}
+body.light #greetings {
+  background: linear-gradient(270deg, #97B4F5 0%, #C1D1FC 50%, #DAE1FA 100%);
+    background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 @keyframes flow {
   0%{
@@ -74,8 +80,8 @@ pointer-events: none;
   outline: none;
   background: transparent;
   padding: 13px;
-  color: var(--white-bg);
-  font-size: 17px;
+  color: var(--white-alt);
+  font-size: 20px;
   transition: 0.4px all;
   border-radius: 5px 5px 5px 5px;
   width: 350px;
@@ -86,7 +92,7 @@ pointer-events: none;
 .input_box:hover,
 .input_box:focus,
 .input_box:active {
-  background: #434c5e;
+  background: #2c2c2c;
 }
 
 .left {
@@ -136,14 +142,14 @@ pointer-events: none;
 }
 
 .column p {
-  color: var(--white-bg);
+  color: var(--white-alt);
   padding-bottom: 10px;
   transition: 0.4s;
 }
 
 .column a {
   text-decoration: none;
-  color: #68748d;
+  color: #e5e4e5;
   transition: 0.3s;
   letter-spacing: 0.6px;
   padding: 5px;
@@ -151,8 +157,8 @@ pointer-events: none;
 }
 
 .column a.hover:hover {
-  color: var(--white-bg);
-  background: #4c566a;
+  color: var(--white-alt);
+  background: #2570ed;
   transform: translateY(-3px);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
@@ -230,17 +236,18 @@ body.light #toggle span:nth-child(2) {
 }
 
 body.light .input_box {
-  color: var(--dark-bg);
+  color: var(--white-alt);
 }
 
 body.light .input_box:hover,
 body.light .input_box:focus,
 body.light .input_box:active {
   background: var(--white-alt);
+  color: var(--dark-bg);
 }
 
 body.light .column p {
-  color: var(--dark-bg);
+  color: var(--white-alt);
 }
 
 body.light .column a.hover:hover {
@@ -254,7 +261,7 @@ body.light img {
 }
 
 body.light ::selection {
-  background: #81a1c1;
+  background: #648ce4;
 }
 
 #date {
@@ -358,6 +365,36 @@ body.light .lines{
   background: rgba(143,188,187, 0.1);
   overflow: hidden;
 }
+body.light .line::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 15vh;
+  width: 100%;
+  top: -50%;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(143,188,187, 0) 0%, #e5e4e550 75%, #e5e4e58f 100%);
+  -webkit-animation: drop 7s 0s infinite;
+          animation: drop 7s 0s infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+          animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+body.light .line:nth-child(1) {
+  margin-left: -25%;
+}
+body.light .line:nth-child(1)::after {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+body.light .line:nth-child(3) {
+  margin-left: 25%;
+}
+body.light .line:nth-child(3)::after {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
 .line::after {
   content: "";
   display: block;
@@ -366,14 +403,13 @@ body.light .lines{
   width: 100%;
   top: -50%;
   left: 0;
-  background: linear-gradient(to bottom, rgba(143,188,187, 0) 0%, #8fbcbb 75%, #8fbcbb 100%);
+  background: linear-gradient(to bottom, rgba(143,188,187, 0) 0%, #00e2bc50 75%, #00ffd58f 100%);
   -webkit-animation: drop 7s 0s infinite;
           animation: drop 7s 0s infinite;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
-          animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
-}
+          animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97); }
 .line:nth-child(1) {
   margin-left: -25%;
 }
@@ -381,7 +417,7 @@ body.light .lines{
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
 }
-.line:nth-child(3) {
+ .line:nth-child(3) {
   margin-left: 25%;
 }
 .line:nth-child(3)::after {
