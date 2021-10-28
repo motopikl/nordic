@@ -12,7 +12,7 @@
 }
 
 :root {
-  --dark-bg: #131c21;
+  --dark-bg: #0e1519;
   --white-bg: #131c21;
   --white-alt: #e5e4e5;
 }
@@ -92,7 +92,7 @@ body.light #greetings {
 .input_box:hover,
 .input_box:focus,
 .input_box:active {
-  background: #2c2c2c;
+  background: #131c21;
 }
 
 .left {
