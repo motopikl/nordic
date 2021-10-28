@@ -12,13 +12,13 @@
 }
 
 :root {
-  --dark-bg: #202020;
-  --white-bg: #8d96ad;
+  --dark-bg: #131c21;
+  --white-bg: #131c21;
   --white-alt: #e5e4e5;
 }
 
 ::selection {
-  background: #2570ed;
+  background: #9c0d11;
 }
 
 body {
@@ -158,7 +158,7 @@ body.light #greetings {
 
 .column a.hover:hover {
   color: var(--white-alt);
-  background: #2570ed;
+  background: #9c0d11;
   transform: translateY(-3px);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
