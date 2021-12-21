@@ -29,18 +29,18 @@ var data = {
     // Change image proprieties from here
 
     // Border radius: set it to 50% to create a circle
-    image_radius: "2%",
+    image_radius: "100%",
     // Border for the image
     image_border: "0px",
     // Color of the border
     image_bordercolor: "#eceff4",
     // Filters for the image.
-    image_filter: "grayscale(36%) brightness(100%)",
+    image_filter: "none",
     // Width/height for the image
-    image_width: "300px",
+    image_width: "350px",
     // Image source: you can use local files, or a link
     // Ex.: image_source: "/img/kanji.jpg"
-    image_source: "https://i.imgur.com/zPmHW4F.jpeg",
+    image_source: "https://i.imgur.com/rZxJ2PX.png",
 
     // -------------------------------------------------
     // Enable/disable site icons

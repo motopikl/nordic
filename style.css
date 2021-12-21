@@ -1,24 +1,24 @@
 
 
 @font-face {
-  font-family: "HaxrCorp 4089 Cyrillic AltGr";
-  @import url("./fonts/haxrcorp.ttf");
+  font-family: "Roboto";
+  @import url("./fonts/Roboto.ttf");
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "HaxrCorp 4089 Cyrillic AltGr", monospace;
+  font-family: "Roboto", monospace;
 }
 
 :root {
-  --dark-bg: #0e1519;
-  --white-bg: #131c21;
+  --dark-bg: #181a20;
+  --white-bg: #181a20;
   --white-alt: #e5e4e5;
 }
 
 ::selection {
-  background: #9c0d11;
+  background: #4b75a9;
 }
 
 body {
@@ -48,8 +48,8 @@ p {
 }
 
 #greetings {
-  font-family: "HaxrCorp 4089 Cyrillic AltGr", monospace;
-  background: linear-gradient(270deg, #c7fba5 0%, #adf182 25%,#dc7d68 50%, #916cad 75%, #523874 100%);
+  font-family: "Roboto", monospace;
+  background: linear-gradient(270deg, #97B4F5 0%, #C1D1FC 50%, #DAE1FA 100%);
     background-clip: border-box;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -81,7 +81,7 @@ body.light #greetings {
   background: transparent;
   padding: 13px;
   color: var(--white-alt);
-  font-size: 20px;
+  font-size: 15px;
   transition: 0.4px all;
   border-radius: 5px 5px 5px 5px;
   width: 350px;
@@ -92,7 +92,7 @@ body.light #greetings {
 .input_box:hover,
 .input_box:focus,
 .input_box:active {
-  background: #131c21;
+  background: #20232b;
 }
 
 .left {
@@ -128,7 +128,7 @@ body.light #greetings {
   display: flex;
   flex-direction: column;
   padding: 15px 30px 15px 15px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .column:nth-child(1) {
@@ -158,7 +158,7 @@ body.light #greetings {
 
 .column a.hover:hover {
   color: var(--white-alt);
-  background: #9c0d11;
+  background: #4b75a9;
   transform: translateY(-3px);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
@@ -261,7 +261,7 @@ body.light img {
 }
 
 body.light ::selection {
-  background: #9c0d11;
+  background: #4b75a9;
 }
 
 #date {
@@ -403,7 +403,7 @@ body.light .line:nth-child(3)::after {
   width: 100%;
   top: -50%;
   left: 0;
-  background: linear-gradient(to bottom, rgba(143,188,187, 0) 0%, #9c0d1252 75%, #9c0d12b2 100%);
+  background: linear-gradient(to bottom, rgba(143,188,187, 0) 0%, #6482a7ad 75%, #4b75a9d2 100%);
   -webkit-animation: drop 7s 0s infinite;
           animation: drop 7s 0s infinite;
   -webkit-animation-fill-mode: forwards;
